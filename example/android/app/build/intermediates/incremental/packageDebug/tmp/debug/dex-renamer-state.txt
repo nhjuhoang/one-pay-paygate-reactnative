@@ -1,0 +1,4 @@
+#Wed Oct 19 12:36:29 ICT 2022
+base.0=/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

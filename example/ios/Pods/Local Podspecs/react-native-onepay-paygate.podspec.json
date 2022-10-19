@@ -1,0 +1,21 @@
+{
+  "name": "react-native-onepay-paygate",
+  "version": "0.1.3",
+  "summary": "onepay paygate sdk for react native",
+  "homepage": "https://github.com/nhatnuoc/react-native-onepay-paygate#readme",
+  "license": "MIT",
+  "authors": "Nguyen Thanh Bình <binhvuong.2010@gmail.com> (https://github.com/nhatnuoc)",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/nhatnuoc/react-native-onepay-paygate.git",
+    "tag": "0.1.3"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

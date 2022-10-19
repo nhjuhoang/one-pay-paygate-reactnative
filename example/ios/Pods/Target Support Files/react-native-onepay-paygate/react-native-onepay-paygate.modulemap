@@ -1,0 +1,6 @@
+module react_native_onepay_paygate {
+  umbrella header "react-native-onepay-paygate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.reactnativeonepaypaygate">
+  <application
+    android:label="@string/app_name"
+    android:allowBackup="false"
+    android:theme="@style/AppTheme">
+    <activity
+      android:name="com.reactnativeonepaypaygate.OpPaymentActivity"
+      android:launchMode="singleTask"
+      android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <!--deep link open your app from website, provided by OnePAY-->
+        <data android:scheme="merchantappscheme" />
+      </intent-filter>
+
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <!--deep link open your app from bank app-->
+        <data
+          android:host="onepay.vn"
+          android:pathPrefix="/paygate/apps/merchantappscheme"
+          android:scheme="https" />
+      </intent-filter>
+
+    </activity>
+  </application>
+</manifest>

@@ -1,0 +1,6 @@
+module Pods_OnepayPaygateExample {
+  umbrella header "Pods-OnepayPaygateExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

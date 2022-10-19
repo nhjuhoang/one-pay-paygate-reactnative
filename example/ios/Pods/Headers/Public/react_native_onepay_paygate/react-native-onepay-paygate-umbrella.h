@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-onepay-paygate/react-native-onepay-paygate-umbrella.h

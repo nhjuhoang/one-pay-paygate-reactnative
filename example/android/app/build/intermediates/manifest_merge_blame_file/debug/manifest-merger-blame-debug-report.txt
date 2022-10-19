@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reactnativeonepaypaygate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/nhieuhoang/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/nhieuhoang/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:6:5-49:19
+16        android:name="com.example.reactnativeonepaypaygate.MainApplication"
+16-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/nhieuhoang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:9:7-41
+21        android:label="@string/app_name"
+21-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:8:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:10:7-52
+23        android:theme="@style/AppTheme"
+23-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:12:7-38
+24        android:usesCleartextTraffic="true" >
+24-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/debug/AndroidManifest.xml:7:18-53
+25        <activity
+25-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:13:7-25:18
+26            android:name="com.example.reactnativeonepaypaygate.MainActivity"
+26-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:14:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+27-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:16:9-86
+28            android:label="@string/app_name"
+28-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:15:9-41
+29            android:launchMode="singleTask"
+29-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:17:9-40
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:18:9-51
+31            <intent-filter>
+31-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:19:9-22:25
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:20:13-65
+32-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:20:21-62
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:21:13-73
+34-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:21:23-70
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:26:7-84
+37-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:26:17-81
+38        <activity
+38-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:27:7-48:18
+39            android:name="com.reactnativeonepaypaygate.OpPaymentActivity"
+39-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:27:17-78
+40            android:launchMode="singleTask"
+40-->[:reactnativeonepaypaygate] /Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-44
+41            android:screenOrientation="portrait" >
+41-->[:reactnativeonepaypaygate] /Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-49
+42            <intent-filter>
+42-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:28:9-35:25
+43                <action android:name="android.intent.action.VIEW" />
+43-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:11-63
+43-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:19-60
+44
+45                <category android:name="android.intent.category.BROWSABLE" />
+45-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:11-72
+45-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:21-69
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:11-70
+46-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:21-67
+47                <!-- deep link open your app from website, provided by OnePAY -->
+48                <data android:scheme="merchantappscheme1" />
+48-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:11-55
+48-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:17-52
+49            </intent-filter>
+50            <intent-filter>
+50-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:37:9-47:25
+51                <action android:name="android.intent.action.VIEW" />
+51-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:11-63
+51-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:19-60
+52
+53                <category android:name="android.intent.category.BROWSABLE" />
+53-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:11-72
+53-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:21-69
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:11-70
+54-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:21-67
+55                <!-- deep link open your app from bank app -->
+56                <data
+56-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:11-55
+57                    android:host="onepay.vn"
+58                    android:pathPrefix="/paygate/apps/merchantappscheme1"
+59                    android:scheme="https" />
+59-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:17-52
+60            </intent-filter>
+61            <intent-filter>
+61-->[:reactnativeonepaypaygate] /Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-24:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:11-63
+62-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:19-60
+63
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:11-72
+64-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:21-69
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:11-70
+65-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:21-67
+66                <!-- deep link open your app from website, provided by OnePAY -->
+67                <data android:scheme="merchantappscheme" />
+67-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:11-55
+67-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:17-52
+68            </intent-filter>
+69            <intent-filter>
+69-->[:reactnativeonepaypaygate] /Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-35:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:11-63
+70-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:29:19-60
+71
+72                <category android:name="android.intent.category.BROWSABLE" />
+72-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:11-72
+72-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:31:21-69
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:11-70
+73-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:32:21-67
+74                <!-- deep link open your app from bank app -->
+75                <data
+75-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:11-55
+76                    android:host="onepay.vn"
+77                    android:pathPrefix="/paygate/apps/merchantappscheme"
+78                    android:scheme="https" />
+78-->/Users/nhieuhoang/Desktop/nhatnuoc-onepaypaygatereactnative-208396e60801/example/android/app/src/main/AndroidManifest.xml:34:17-52
+79            </intent-filter>
+80        </activity>
+81    </application>
+82
+83</manifest>

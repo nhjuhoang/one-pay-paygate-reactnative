@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="payment">Thanh toán</string>
+    <string name="payment_success">Thanh toán thành công</string>
+    <string name="payment_dialog_title">Thông báo</string>
+    <string name="payment_error">Thanh toán lỗi</string>
+    <string name="amount">Số tiền</string>
+    <string name="please_enter_amount">Vui lòng nhập số tiền</string>
+    <string name="no_app_found">Không có ứng dụng. Vui lòng tải ứng dụng</string>
+</resources>
