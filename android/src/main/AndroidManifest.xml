@@ -15,7 +15,7 @@
         <category android:name="android.intent.category.BROWSABLE" />
         <category android:name="android.intent.category.DEFAULT" />
         <!--deep link open your app from website, provided by OnePAY-->
-        <data android:scheme="merchantappscheme" />
+        <data android:scheme="merchantthuyngacheme" />
       </intent-filter>
 
       <intent-filter>
@@ -26,7 +26,7 @@
         <!--deep link open your app from bank app-->
         <data
           android:host="onepay.vn"
-          android:pathPrefix="/paygate/apps/merchantappscheme"
+          android:pathPrefix="/paygate/apps/merchantthuyngacheme"
           android:scheme="https" />
       </intent-filter>
 
