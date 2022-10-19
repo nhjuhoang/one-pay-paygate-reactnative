@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://registry.npmjs.org/"
   },
-  "homepage": "",
+  "homepage": "https://registry.npmjs.org/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
