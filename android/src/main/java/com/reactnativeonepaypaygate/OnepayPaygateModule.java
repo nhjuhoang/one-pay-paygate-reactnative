@@ -2,9 +2,7 @@ package com.reactnativeonepaypaygate;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 
@@ -63,9 +61,13 @@ public class OnepayPaygateModule extends ReactContextBaseJavaModule implements S
           if (resultCode == Activity.RESULT_OK) {
             promise.resolve(data.getData().toString());
           } else {
-            int errorCode = data.getIntExtra("error_code", Integer.MIN_VALUE);
-            String errorMessage = data.getStringExtra("error_message");
-            promise.reject("" + errorCode, errorMessage);
+            if(data == null){
+                promise.reject("", "");
+            } else {
+                int errorCode = data.getIntExtra("error_code", Integer.MIN_VALUE);
+                String errorMessage = data.getStringExtra("error_message");
+                promise.reject("" + errorCode, errorMessage);
+            }
           }
         }
 
@@ -77,5 +79,4 @@ public class OnepayPaygateModule extends ReactContextBaseJavaModule implements S
       context.startActivityForResult(intent, REQUEST_CODE, Bundle.EMPTY);
     }
 
-    public static native int nativeMultiply(int a, int b);
 }
