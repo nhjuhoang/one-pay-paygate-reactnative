@@ -62,7 +62,7 @@ public class OnepayPaygateModule extends ReactContextBaseJavaModule implements S
             promise.resolve(data.getData().toString());
           } else {
             if(data == null){
-                promise.reject("", "");
+                promise.resolve("");
             } else {
                 int errorCode = data.getIntExtra("error_code", Integer.MIN_VALUE);
                 String errorMessage = data.getStringExtra("error_message");
