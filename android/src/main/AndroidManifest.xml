@@ -2,8 +2,7 @@
           package="com.reactnativeonepaypaygate">
   <application
     android:label="@string/app_name"
-    android:allowBackup="false"
-    android:theme="@style/AppTheme">
+    android:allowBackup="false">
     <activity
       android:name="com.reactnativeonepaypaygate.OpPaymentActivity"
       android:launchMode="singleTask"
